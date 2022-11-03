@@ -1,0 +1,93 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  background-color: #ebebeb;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.paper-A4 {
+  position: relative;
+  background: white;
+  height: 90rem;
+  width: 63.2rem;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  padding: 2.3rem 0rem 1.2rem 0;
+}
+
+.paper-A4::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 1.4rem;
+    width: 50%;
+    background: forestgreen;
+}
+.logo-img {
+  height: 9rem;
+}
+.iso-logo {
+  height: 6rem;
+}
+.heading {
+  font-weight: 700;
+  color: #0b6baf;
+  font-size: 2.8rem;
+  margin-bottom: 0;
+}
+.tagLine {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #727272;
+  letter-spacing: 5px;
+}
+.bx {
+  vertical-align: bottom;
+}
+.contact-mail-box {
+  font-size: 10px;
+  font-weight: 500;
+}
+.list-group ul {
+  list-style: none;
+}
+.list-group li {
+  font-size: 1.25rem;
+  margin: 0 0.3rem;
+  font-weight: 500;
+  color: #4d6732;
+  line-height: 1.65;
+}
+.bullet-points {
+  border-radius: 50%;
+  display: inline-block;
+  padding: 0.3rem;
+  background: black;
+  vertical-align: middle;
+  margin-right: 0.5rem;
+}
+.list-group li:first-child span {
+  display: none;
+}
+.footer {
+  background-image: linear-gradient(to top, transparent, transparent, #d9ecf387);
+}
+.footer > h4 {
+  color: #4d6732;
+}
+.footer .address-box h4 {
+  color: #1470b2;
+}
+.address-box {
+  border-top: 2px solid #4d6732;
+  border-bottom: 2px solid #4d6732;
+}
+
+.letter-body {
+  background-image: url(bg-main.png);
+  height: -webkit-fill-available;
+  background-size: cover;
+}
