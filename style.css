@@ -1,19 +1,20 @@
 * { margin: 0; padding: 0; box-sizing: border-box; }
 
+
 body {
   background-color: #ebebeb;
 }
 
 html {
-  font-size: 62.5%;
+  font-size: 73%;
 }
 
 .paper-A4 {
   position: relative;
   background: white;
   height: 90rem;
-  width: 63.2rem;
-  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  width: 69.5rem;
+  box-shadow: rgb(60 64 67 / 30%) 0px 1px 2px 0px, rgb(60 64 67 / 15%) 0px 1px 3px 1px;
   padding: 2.3rem 0rem 1.2rem 0;
 }
 
@@ -48,8 +49,9 @@ html {
   vertical-align: bottom;
 }
 .contact-mail-box {
-  font-size: 10px;
+  font-size: 1rem;
   font-weight: 500;
+  text-align: right;
 }
 .list-group ul {
   list-style: none;
@@ -88,6 +90,7 @@ html {
 
 .letter-body {
   background-image: url(bg-main.png);
-  height: -webkit-fill-available;
-  background-size: cover;
+  background-size: 100.2% 100%;
+  background-position: right;
+  min-height: 61.6rem;
 }
