@@ -14,21 +14,24 @@ html {
   background: white;
   /* height: 90rem; */
   width: 69.5rem;
+  background: url(mars-polyclinic-bg2.png);
   /* box-shadow: rgb(60 64 67 / 30%) 0px 1px 2px 0px, rgb(60 64 67 / 15%) 0px 1px 3px 1px; */
   padding: 2.3rem 0rem 1.2rem 0;
+  background-size: 100% 100%;
 }
 
 .paper-A4::before {
     content: '';
     position: absolute;
-    top: 0;
+    top: 1rem;
     left: 0;
     height: 1.4rem;
-    width: 50%;
-    background: forestgreen;
+    width: 100%;
+    background: #0166ff;
 }
+
 .logo-img {
-  height: 9rem;
+  height: 11rem;
 }
 .iso-logo {
   height: 6rem;
@@ -40,10 +43,10 @@ html {
   margin-bottom: 0;
 }
 .tagLine {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   font-weight: 500;
   color: #727272;
-  letter-spacing: 5px;
+  letter-spacing: 1px;
 }
 .bx {
   vertical-align: bottom;
@@ -89,8 +92,6 @@ html {
 }
 
 .letter-body {
-  background-image: url(bg-main.png);
-  background-size: 100.2% 100%;
-  background-position: right;
-  height: 67.6rem;
+  height: 67.9rem;
+  padding-bottom: 71px;
 }
