@@ -51,45 +51,6 @@ html {
 .bx {
   vertical-align: bottom;
 }
-.contact-mail-box {
-  font-size: 1rem;
-  font-weight: 500;
-  text-align: right;
-}
-.list-group ul {
-  list-style: none;
-}
-.list-group li {
-  font-size: 1.25rem;
-  margin: 0 0.3rem;
-  font-weight: 500;
-  color: #4d6732;
-  line-height: 1.65;
-}
-.bullet-points {
-  border-radius: 50%;
-  display: inline-block;
-  padding: 0.3rem;
-  background: black;
-  vertical-align: middle;
-  margin-right: 0.5rem;
-}
-.list-group li:first-child span {
-  display: none;
-}
-.footer {
-  background-image: linear-gradient(to top, transparent, transparent, #d9ecf387);
-}
-.footer > h4 {
-  color: #4d6732;
-}
-.footer .address-box h4 {
-  color: #1470b2;
-}
-.address-box {
-  border-top: 2px solid #4d6732;
-  border-bottom: 2px solid #4d6732;
-}
 
 .letter-body {
   height: 67.9rem;
