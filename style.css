@@ -95,3 +95,12 @@ html {
   height: 67.9rem;
   padding-bottom: 71px;
 }
+#watermark {
+  position: absolute;
+  height: 25rem;
+  width: auto;
+  top: 50%;
+  left: 50%;
+  opacity: 0.2;
+  transform: translate(-52%, -81%);
+}
